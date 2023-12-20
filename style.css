@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CBD18F;
+    overflow: hidden;
+}
+.container{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.game_bord{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box_container{
+    height: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+.box_container button{
+    background-color:#FFA351;
+    height:90px;
+    width: 90px;
+    font-size: 40px;
+    border:none;
+    border-radius: 10px;
+}
+.reset ,.New_Game{
+    background-color: rgba(145, 57, 228, 0.849);
+    color:#fff;
+    font-size: 20px;
+    padding: 5px 10px;
+    border:none;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.game_bord2{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gift_box{
+    width: 400px;
+    height: 400px;
+   
+}
+.gift_box img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+@media (max-width:1025px) {
+    h1{
+        font-size: 20px;
+    }
+    .reset ,.New_Game{
+        font-size: 15px;
+    }
+    .gift_box{
+        width: 300px;
+        height: 300px;
+    }    
+    .gift_box img{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
