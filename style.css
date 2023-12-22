@@ -57,7 +57,7 @@ h1{
 .game_bord2{
     height:100vh;
     width: 100%;
-    display: flex;
+    display:none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
